@@ -6,6 +6,7 @@ import pass from "./../assets/pass.png";
 function Login() {
 	return (
 		<div className="main">
+			<div></div>
 			<div className="sub-main">
 				<div>
 					<div className="imgs">
@@ -14,7 +15,7 @@ function Login() {
 						</div>
 					</div>
 					<div>
-						<h1>Welcome Back!</h1>
+						<h1>Welcome To Portfolio!</h1>
 						<div>
 							<img src={email} alt="email" className="email" />
 							<input

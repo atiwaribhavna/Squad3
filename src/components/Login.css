@@ -1,9 +1,9 @@
 .main {
-	height: 100vh;
+	height: 100%;
 	text-align: center;
 	justify-content: center;
 	display: flex;
-	background-color: #e1e3eb;
+	background: linear-gradient(to right, #800080, #ADD8E6);
 }
 .sub-main {
 	margin-top: 90px;
@@ -71,7 +71,7 @@ button {
 }
 button:hover {
 	cursor: pointer;
-	background-color: #1d4cac;
+	background-color: #717178;
 }
 .login-button {
 	padding-top: 45px;
