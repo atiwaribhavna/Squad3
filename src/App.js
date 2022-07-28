@@ -1,6 +1,6 @@
 import Login from "./components/Login";
-import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Portfolio from "./components/Portfolio";
 
 function App() {
 	let emp = 909;
@@ -9,7 +9,10 @@ function App() {
 			<div className="App">
 				<Routes>
 					<Route path="/login" element={<Login />} />
-					<Route path={`/portfolios/${emp}`} element={<Navbar />} />
+					<Route
+						path={`/portfolios/${emp}`}
+						element={<Portfolio />}
+					/>
 				</Routes>
 			</div>
 		</Router>
