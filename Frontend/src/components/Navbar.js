@@ -47,15 +47,17 @@ const Navbar = () => {
 							letterSpacing: ".3rem",
 							color: "inherit",
 							textDecoration: "none",
-						}}>
-						Naina
+						}}
+					>
+						Devesh
 					</Typography>
 
 					<Box
 						sx={{
 							flexGrow: 1,
 							display: { xs: "flex", md: "none" },
-						}}></Box>
+						}}
+					></Box>
 					<Typography
 						variant="h5"
 						noWrap
@@ -70,22 +72,25 @@ const Navbar = () => {
 							letterSpacing: ".3rem",
 							color: "inherit",
 							textDecoration: "none",
-						}}>
-						Naina
+						}}
+					>
+						Devesh
 					</Typography>
 					<Box
 						sx={{
 							flexGrow: 1,
 							display: { xs: "none", md: "flex" },
 							ml: 3,
-						}}>
+						}}
+					>
 						{links.map(({ id, link }) => (
 							<Link
 								className="nav-links"
 								to={link}
 								smooth
 								duration={500}
-								key={id}>
+								key={id}
+							>
 								{link}
 							</Link>
 						))}
