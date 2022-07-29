@@ -1,7 +1,7 @@
 import { Button, Grid } from "@mui/material";
 import React from "react";
 import "./PortfolioMain.css";
-import emp910 from "./../assets/910.png";
+import emp910 from "./../assets/emp910/910.png";
 
 function PortfolioMain() {
 	return (
