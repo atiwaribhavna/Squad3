@@ -1,5 +1,5 @@
 .nav-links {
-	color: rgb(87, 86, 86);
+	color: rgb(252, 252, 252);
 	padding: 0 20px;
 	cursor: pointer;
 	text-transform: uppercase;
@@ -11,4 +11,5 @@
 	text-decoration: underline;
 	transform: scale(1.1);
 	text-underline-offset: 3px;
+	font-weight: bolder;
 }
