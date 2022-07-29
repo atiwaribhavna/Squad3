@@ -10,6 +10,7 @@ function Login() {
 				<div>
 					<div className="imgs">
 						<div className="container-image">
+
 							<img src={logo} alt="bhavna" className="profile" />
 						</div>
 					</div>

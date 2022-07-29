@@ -1,0 +1,13 @@
+.about-div {
+	margin: 30px 0;
+}
+
+h2 {
+	color: rgb(32, 32, 32);
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+.about-para {
+	line-height: 25px;
+}
