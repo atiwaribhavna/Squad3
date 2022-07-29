@@ -1,12 +1,13 @@
 .main {
 	height: 100%;
+	min-height: 100vh;
 	text-align: center;
 	justify-content: center;
 	display: flex;
-	background: linear-gradient(to right, #800080, #ADD8E6);
+	background: linear-gradient(to right, #800080, #add8e6);
 }
 .sub-main {
-	margin-top: 90px;
+	margin: 90px 0;
 	display: flex;
 	justify-content: center;
 	height: 520px;

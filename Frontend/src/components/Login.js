@@ -6,12 +6,12 @@ import pass from "./../assets/pass.png";
 function Login() {
 	return (
 		<div className="main">
-			<div></div>
 			<div className="sub-main">
 				<div>
 					<div className="imgs">
 						<div className="container-image">
-							<img src={logo} alt="profile" className="profile" />
+
+							<img src={logo} alt="bhavna" className="profile" />
 						</div>
 					</div>
 					<div>
